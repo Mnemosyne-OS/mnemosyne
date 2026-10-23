@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+  <defs>
+    <!-- The brand plate and blooms, from mnemosyne-org-github/scripts/gen-art.mjs -->
+    <linearGradient id="plate" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="55%" stop-color="#F6F4FA"/><stop offset="100%" stop-color="#EEEAF6"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="8%" cy="12%" r="46%">
+      <stop offset="0%" stop-color="#7C4DFF" stop-opacity="0.10"/>
+      <stop offset="55%" stop-color="#7C4DFF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tint" cx="84%" cy="42%" r="46%">
+      <stop offset="0%" stop-color="#A98BFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#A98BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4A2FA8"/><stop offset="45%" stop-color="#6B4FD8"/><stop offset="100%" stop-color="#9B7BF0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="1.418"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="460" fill="url(#plate)"/>
+  <rect width="1200" height="460" fill="url(#bloom)"/>
+  <rect width="1200" height="460" fill="url(#tint)"/>
+
+  <!-- logo: the mark (gen-art.mjs markGroup) + wordmark -->
+  <g transform="translate(96 72) scale(0.857) translate(-60 -32)">
+    <g filter="url(#glow)" opacity="0.5">
+      <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round"/>
+    </g>
+    <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="#F6F4FA" stroke-width="8.860" stroke-linecap="butt" pathLength="300" stroke-dasharray="14 286" stroke-dashoffset="-218"/>
+    <path d="M32 32 C32 18 46 18 60 32 C74 46 88 46 88 32 C88 18 74 18 60 32 C46 46 32 46 32 32 Z" fill="none" stroke="url(#flow)" stroke-width="5.848" stroke-linecap="round" pathLength="300" stroke-dasharray="14 286" stroke-dashoffset="-218"/>
+  </g>
+  <text x="136" y="80" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#1B1726" letter-spacing="6">MNEMOSYNE OS</text>
+
+  <!-- title -->
+  <text x="64" y="168" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="49" font-weight="600" fill="#1B1726">AI memory under human control.</text>
+  <text x="64" y="206" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="16" fill="#5B3FC4" letter-spacing="3">THE OFFICIAL ADDRESSES</text>
+
+  <!-- 1 · product site, the focal card -->
+  <g transform="translate(64 244)">
+    <rect width="336" height="160" rx="14" fill="#EFEAFB" fill-opacity="1" stroke="#5B3FC4" stroke-opacity="0.7" stroke-width="2"/>
+    <text x="24" y="40" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#5B3FC4" letter-spacing="2">PRODUCT SITE</text>
+    <text x="24" y="86" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1B1726">mnemosyne-os.io</text>
+    <text x="24" y="124" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="16" fill="#5E5872">Download, how it works,</text>
+    <text x="24" y="146" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="16" fill="#5E5872">benchmark</text>
+  </g>
+
+  <!-- 2 · documentation -->
+  <g transform="translate(432 244)">
+    <rect width="336" height="160" rx="14" fill="#FFFFFF" fill-opacity="0.85" stroke="#1B1726" stroke-opacity="0.12" stroke-width="1.5"/>
+    <text x="24" y="40" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#5E5872" letter-spacing="2">DOCUMENTATION</text>
+    <text x="24" y="86" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1B1726">docs.mnemosyne-os.io</text>
+    <text x="24" y="124" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="16" fill="#5E5872">User guide and</text>
+    <text x="24" y="146" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="16" fill="#5E5872">technical reference</text>
+  </g>
+
+  <!-- 3 · source code -->
+  <g transform="translate(800 244)">
+    <rect width="336" height="160" rx="14" fill="#FFFFFF" fill-opacity="0.85" stroke="#1B1726" stroke-opacity="0.12" stroke-width="1.5"/>
+    <text x="24" y="40" font-family="ui-monospace, 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#5E5872" letter-spacing="2">SOURCE AND RELEASES</text>
+    <text x="24" y="86" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1B1726">github.com/Mnemosyne-OS</text>
+    <text x="24" y="124" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="16" fill="#5E5872">Windows, macOS, Linux.</text>
+    <text x="24" y="146" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="16" fill="#5E5872">Open core: SDK and CLI under MIT</text>
+  </g>
+</svg>
